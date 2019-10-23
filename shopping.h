@@ -17,10 +17,10 @@
 
 class Shopping{
  public:
-  Shopping(std::vector<Goods> goods_list) {
-			 shopping_list_ = goods_list;
+  Shopping(std::vector<Goods> goods_list){
+      shopping_list_ = goods_list;
   }
-  ~
+  ~Shopping();
   void PushList(Goods object);
   Goods GetLastElement();
   void PrintList();
