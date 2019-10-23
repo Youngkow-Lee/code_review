@@ -9,9 +9,10 @@
 
 class Goods{
  public:
-  Goods(){
-      goods_index_ = 0;
-      goods_price_ = 0;
+ 
+ Goods(int index, int price){
+      goods_index_ = index;
+      goods_price_ = price;
   }
   ~Goods();
   void SetGoodsInfo(int index, int price);
